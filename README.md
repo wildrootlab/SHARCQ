@@ -22,7 +22,7 @@ Plan neuropixels trajectories with an Allen CCF-based GUI
 
 >> allen_ccf_npx(tv,av,st);
 ```
-for 4-shank: 
+for 4-shank:
 ```
 >> allen_ccf_npx_4shank(tv,av,st);
 ```
@@ -69,3 +69,5 @@ Available from: http://download.alleninstitute.org/informatics-archive/current-r
 
 See Allen Mouse Common Coordinate Framework Technical White Paper for details
 http://help.brain-map.org/download/attachments/8323525/Mouse_Common_Coordinate_Framework.pdf?version=3&modificationDate=1508178848279&api=v2
+
+## Edit update
