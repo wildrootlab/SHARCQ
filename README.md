@@ -11,6 +11,7 @@ This code is a modified development from https://github.com/cortex-lab/allenCCF 
 - Cell Count (ROI pixel coordinate) files
 - The npy-matlab repository (https://github.com/kwikteam/npy-matlab) (add 'npy-matlab-master' to 'Code' folder)
 - The Allen Mouse Brain Atlas volume and annotations(http://data.cortexlab.net/allenCCF/) (download all 4 files from this link and add to 'Atlas'->'Allen' folder)
+- The Franklin-Paxinos updated Atlas files from Chon et al. 2019 (https://drive.google.com/file/d/1JikOaQp1mbXEJmu1NsRO9BUTwVooWECA/view?usp=sharing) (download all files from this link and add to 'Atlas'->'Chon' folder
 
 *See the Wiki for detailed instructions about these requirements
 
