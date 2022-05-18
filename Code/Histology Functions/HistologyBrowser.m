@@ -41,6 +41,7 @@ if ~use_already_downsampled_image
     else
         X = find(strcmpi(ROI_table.Properties.VariableNames,'X'));
         Y = find(strcmpi(ROI_table.Properties.VariableNames,'Y'));
+        ROI_values = ROI_values(2:end,:);
     end
         
     % ROI_values contains the data from the ROI coordinate file.
@@ -207,6 +208,7 @@ elseif ~ud.adjusting_contrast
             else
                 X = find(strcmpi(ROI_table.Properties.VariableNames,'X'));
                 Y = find(strcmpi(ROI_table.Properties.VariableNames,'Y'));
+                ROI_values = ROI_values(2:end,:);
             end
             
             x = round(ROI_values(:,X)*(sz(1,1)/original_image_size(1,1)));
@@ -273,5 +275,4 @@ title(['Adjusting channel ' num2str(ud.channel) ' on image ' num2str(ud.file_num
             'color',[1==ud.channel 2==ud.channel 3==ud.channel])
 
 set(fig, 'UserData', ud);
-
 
